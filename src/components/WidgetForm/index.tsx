@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { CloseButton } from "../CloseButton";
+import { Footer } from "../Footer";
 import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep";
 
 import FeedbackTypes from "./types";
@@ -22,17 +23,7 @@ export function WidgetForm() {
         <p>ello World</p>
       )}
 
-      <footer className="text-xs text-neutral-400">
-        Feito com ♥ por{" "}
-        <a
-          className="underline underline-offset-2"
-          href="https://www.ntbatista.dev"
-          target="_blank"
-          rel="noopener"
-        >
-          NtBatista
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
