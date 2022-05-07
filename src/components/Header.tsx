@@ -2,7 +2,7 @@ import { ArrowLeft } from "phosphor-react";
 import { CloseButton } from "./CloseButton";
 
 interface HeaderProps {
-  title: string;
+  title?: string;
   image?: string;
   alt?: string;
   backButton?: () => void;
